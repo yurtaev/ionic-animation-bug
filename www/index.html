@@ -21,6 +21,22 @@
     <!-- your app's js -->
     <script src="js/app.js"></script>
     <script src="js/controllers.js"></script>
+    <style>
+    .scroll-refresher .icon-pulling {
+        -webkit-animation-duration: 0ms;
+        animation-duration: 0ms;
+        -webkit-animation-name: refresh-spin-back;
+        animation-name: refresh-spin-back;
+        -webkit-transition-duration: 2000ms;
+        transition-duration: 2000ms;
+        -webkit-animation-timing-function: linear;
+        animation-timing-function: linear;
+        -webkit-animation-fill-mode: none;
+        animation-fill-mode: none;
+        -webkit-transform: translate3d(0, 0, 0) rotate(0deg);
+        transform: translate3d(0, 0, 0) rotate(0deg);
+    }
+    </style>
   </head>
 
   <body ng-app="starter">
